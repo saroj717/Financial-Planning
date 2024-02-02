@@ -1,0 +1,101 @@
+*{
+  font-family: "nudista-web",Helvetica,Arial,sans-serif;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+body{
+  background: rgb(240, 227, 207);
+}
+
+
+/* ----- Navbar -----  */
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+}
+.navbar .nav-link:hover {
+  background-color: rgb(243, 202, 125);
+  border-radius: 8px;
+  padding: 10px 8px;
+}
+
+/* Hero */
+#economic-opp img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  aspect-ratio: 1.2;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+/* Main-image & text  */
+.nasdaq100 {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.main-text {
+  align-items: center;
+}
+/* Latest-news  */
+.news-image {
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.news-text {
+  padding-top: 20px;
+}
+
+/* Follow Airbnb  */
+#social-logos {
+  width: 40px;
+  height: 40px;
+}
+.social {
+  align-items: center;
+}
+
+
+/* One-of-a-kind stays  */
+.stays-image img {
+  height: 500px; 
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+/* Footer   */
+footer {
+  background-color: #f2f2f2;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 12px;
+  display: block ;
+}
+.support {
+  margin-left: 0px;
+  margin-right: 80px;
+  list-style-type: none;
+}
+.hosting {
+  margin-left: 0px;
+  margin-right: 80px;
+  list-style-type: none;
+}
+.airbnb {
+  margin-left: 0px;
+  margin-right: 80px;
+  list-style-type: none;
+}
